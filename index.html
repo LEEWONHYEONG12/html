@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>202210879 이원형</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<div id="loading">
+		<div class="loading-text">INITIALIZING</div>
+		<!-- 8-bit 게임 요소들을 여러개 추가 -->
+		<div class="cube">
+			<div class="realtop"></div>
+			<div>
+				<span style="--i:0"></span>
+				<span style="--i:1"></span>
+				<span style="--i:2"></span>
+				<span style="--i:3"></span>
+			</div>
+		</div>
+
+		<div class="loading-bar">
+			<div class="loading-progress"></div>
+			<div class="loading-percent">0%</div>
+		</div>
+	</div>
+
+
+	<header>
+		<div class="logo">Codingle2</div>
+		<input type="checkbox" id="nav_check" hidden>
+
+		<nav>
+			<ul>
+				<div onclick="mainClick()">
+					<li><a class="link">Main</a></li>
+				</div>
+				<div onclick="page2Click()">
+					<li><a class="link">Me</a></li>
+				</div>
+				<div onclick="page3Click()">
+					<li><a class="link">Developer</a></li>
+				</div>
+			</ul>
+		</nav>
+		<label for="nav_check" class="hamburger">
+			<div></div>
+			<div></div>
+			<div></div>
+		</label>
+	</header>
+
+	<div class="container3">
+		<div class="social-menu">
+			<ul>
+				<li><a href="https://www.instagram.com/circle__2" target="_blank"><i><img src="img/Icon/instagram.png"
+								alt=""></i></a></li>
+				<li><a href="https://github.com/Leewonhung" target="_blank"><i><img src="img/Icon/github.png"
+								alt=""></i></a></li>
+				<li><a class="socialskk" href="https://wwwk.kangwon.ac.kr/www/index.do" target="_blank"><i><img
+								src="img/Icon/logo_KNU.png" alt=""></i></a></li>
+				<li><a href="https://www.naver.com/" target="_blank"><img src="img/Icon/logo_naver.png"
+							alt=""><i></i></a></li>
+				<li><a href="http://www.kimauk.com/" target="_blank"><i><img src="img/Icon/professor.png"
+								alt=""></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<section id="main">
+		<div class="wrapper">
+		
+			<div class="cube">
+				<div class="realtop"></div>
+				<div>
+					<span style="--i:0"></span>
+					<span style="--i:1"></span>
+					<span style="--i:2"></span>
+					<span style="--i:3"></span>
+				</div>
+			</div>
+			<div class="top">codingle2</div>
+			<div class="bottom" aria-hidden="true">codingle2</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- One -->
+	<section id="page2">
+		<div>
+			<!--맨위에 메모장-->
+			<div class="container">
+				<div class="testimonial">
+					<span class="open quote">“</span>
+					<div class="image">
+						<div class="clip"></div>
+						<img src="img/profile_img.jpeg">
+					</div>
+					<p>KANGWON NATIONAL UNIVERSITY Junior<br>
+						Mp Special Duty Team 2021.09 ~ 2023.03 <br>
+						Shingu University 2020.03 ~ 2021.03 <br>
+						Fornt-end developer(Flutter)<br>
+					</p>
+					<div class="source">
+						<span> 이원형</span>
+					</div>
+					<span class="close quote">”</span>
+				</div>
+			</div>
+
+
+
+
+
+			<!--가운대에 4개의 grid와 내부 card_f-->
+			<div class="container2">
+				<div class="grid-container">
+					<div class="grid-item">
+
+						<div class="card_f">
+							<div class="image-box">
+								<img src="./img/card_f1.jpg">
+							</div>
+							<div class="content">
+								<h2>코딩은 나의 삶</h2>
+								<p>수학은 재미없지만 코딩은 재밌다. <br> 근데 커피가 없으면 하기가 싫다.</p>
+							</div>
+						</div>
+					</div>
+
+					<!--2번쨰 grid-->
+					<div class="grid-item">
+						<div class="card_f">
+							<div class="image-box">
+								<img src="./img/card_f2.jpg">
+							</div>
+							<div class="content">
+								<h2>"Master"</h2>
+								<p>욕 하지 않기, 팀이랑 싸우지않기,<br> 그리고 포기하지 않기</p>
+							</div>
+						</div>
+					</div>
+
+					<!--3번쨰 grid-->
+					<div class="grid-item">
+						<div class="card_f">
+							<div class="image-box">
+								<img src="./img/card_f3.jpg">
+							</div>
+							<div class="content">
+								<h2>거미줄 퇴치 및 벌레잡기</h2>
+								<p>세스코 못지 않은 실력</p>
+							</div>
+						</div>
+					</div>
+					<!--4번쨰 grid-->
+					<div class="grid-item">
+						<div class="card_f">
+							<div class="image-box">
+								<img src="./img/card_f4.jpg">
+							</div>
+							<div class="content">
+								<h2>건반 및 피아노 세션</h2>
+								<p>고등학교 시절 음악을 했었다. <br> 현재 중앙 동아리 꾼에 소속되어있다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="container0">	
+			<div class="skewed">
+				<div class="skewed_text">
+					<small>송파구 어딘가</small>
+					<h1>잠실 까지 단 30분</h1>
+					<p>학창 시절을 송파에서 보냈고 
+						현재는 5분거리로 다시 이사를하여
+						경기도 어딘가 거주중
+						그래도 송파에서 출몰
+					</p>
+					<a href="https://www.lwt.co.kr/main/main.do" target="_blank">롯데타워 바로가기</a>
+				</div>
+				<div class="middleCard_img">
+					<div>
+						<img src="img/tower.jpg" alt="">
+					</div>
+				</div>
+			</div>
+	
+	
+	
+			<div class="skewed skewed-left">
+				<div class="middleCard_img">
+					<div>
+						<img src="img/cafe.jpg" alt="">
+					</div>
+				</div>
+				<div class="skewed_text">
+					<small>일요일은 내가 요리사</small>
+					<h1>메가 커피알바</h1>
+					<p>1년 카페알바 경험으로 다양한
+						음료 제조 기록 보유
+						레시피에 없는 음료 만들기 전문
+						사장님이 가장 싫어하는 알바생 1위
+					</p>
+					<a href="https://www.mega-mgccoffee.com/" target="_blank">메가커피 바로가기</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!--맨밑에 펼쳐지는 card들-->
+		<div class="container2">
+			<div class="card">
+				<img class="background" src="img/card1.jpg" alt="">
+
+				<div class="card-content">
+					<div class="profile-image">
+						<svg xmlns="card" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
+							stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+							<line x1="6" x2="10" y1="11" y2="11" />
+							<line x1="8" x2="8" y1="9" y2="13" />
+							<line x1="15" x2="15.01" y1="12" y2="12" />
+							<line x1="18" x2="18.01" y1="10" y2="10" />
+							<image href="./img/smile-dizzy-white.svg" width="24" height="24" alt=""></image>
+						</svg>
+					</div>
+
+					<h3 class="title">여름</h3>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+
+			<div class="card">
+				<img class="background" src="img/card2.jpg" alt="">
+
+				<div class="card-content">
+					<div class="profile-image">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="lucide lucide-gamepad-2">
+							<line x1="6" x2="10" y1="11" y2="11" />
+							<line x1="8" x2="8" y1="9" y2="13" />
+							<line x1="15" x2="15.01" y1="12" y2="12" />
+							<line x1="18" x2="18.01" y1="10" y2="10" />
+							<image href="./img/gun-white.svg" width="24" height="24" alt="">
+						</svg>
+					</div>
+
+					<h3 class="title">군시절</h3>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+
+			<div class="card">
+				<img class="background" src="img/card3.jpg" alt="">
+
+				<div class="card-content">
+					<div class="profile-image">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="lucide lucide-gamepad-2">
+							<line x1="6" x2="10" y1="11" y2="11" />
+							<line x1="8" x2="8" y1="9" y2="13" />
+							<line x1="15" x2="15.01" y1="12" y2="12" />
+							<line x1="18" x2="18.01" y1="10" y2="10" />
+							<image href="./img/food_bank-white.svg" width="24" height="24" alt=""></image>
+						</svg>
+					</div>
+
+					<h3 class="title">Me</h3>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+
+			<div class="card">
+				<img class="background" src="img/card4.jpg" alt="">
+
+				<div class="card-content">
+					<div class="profile-image">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="lucide lucide-gamepad-2">
+							<line x1="6" x2="10" y1="11" y2="11" />
+							<line x1="8" x2="8" y1="9" y2="13" />
+							<line x1="15" x2="15.01" y1="12" y2="12" />
+							<line x1="18" x2="18.01" y1="10" y2="10" />
+							<image href="./img/clothes-windbreaker-white.svg" width="24" height="24" alt=""></image>
+						</svg>
+					</div>
+
+					<h3 class="title">최근의 나</h3>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+
+			<div class="card">
+				<img class="background" src="img/card5.jpg" alt="">
+
+				<div class="card-content">
+					<div class="profile-image">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="lucide lucide-gamepad-2">
+							<line x1="6" x2="10" y1="11" y2="11" />
+							<line x1="8" x2="8" y1="9" y2="13" />
+							<line x1="15" x2="15.01" y1="12" y2="12" />
+							<line x1="18" x2="18.01" y1="10" y2="10" />
+							<image href="./img/walk-line.svg" width="24" height="24" alt=""></image>
+						</svg>
+					</div>
+
+					<h3 class="title">골목길</h3>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+		</div>
+
+
+
+	</section>
+
+	<!--page3Click-->
+	<section id="page3">
+
+		<!--progress bar-->
+		<div class="container">
+			<div class="main">
+				<section class="skill content-card">
+					<div class="title">
+						<h1>My Skill</h1>
+					</div>
+					<ul class="skills-list">
+						<li class="skills-item">
+							<div class="title-wrapper">
+								<h3>Android_Develop</h3>
+								<data value="70">70%</data>
+							</div>
+							<div class="skill-progress-bg">
+								<div class="skill-progress-fill" style="width: 70%;"></div>
+							</div>
+						</li>
+						<li class="skills-item">
+							<div class="title-wrapper">
+								<h3>Html & Css</h3>
+								<data value="60">60%</data>
+							</div>
+							<div class="skill-progress-bg">
+								<div class="skill-progress-fill" style="width: 60%;"></div>
+							</div>
+						</li>
+						<li class="skills-item">
+							<div class="title-wrapper">
+								<h3>Flutter(dart)</h3>
+								<data value="80">80%</data>
+							</div>
+							<div class="skill-progress-bg">
+								<div class="skill-progress-fill" style="width: 80%;"></div>
+							</div>
+						</li>
+						<li class="skills-item">
+							<div class="title-wrapper">
+								<h3>python</h3>
+								<data value="50">50%</data>
+							</div>
+							<div class="skill-progress-bg">
+								<div class="skill-progress-fill" style="width: 50%;"></div>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<!--밑에 글씨-->
+		<div class="container4">
+			<div class="etc-contents">
+				<h1>지금까지의 <span>&lt;Develop&gt;</span> 과정</h1>
+				<div class="details-tabs">
+					<details class="details-item" open name="test"> <!-- default first "tab" to open -->
+						<summary class="details-tab">See Ott</summary>
+						<div class="details-content">
+							<p><strong>처음 시작은 친구들이었다.</strong></p>
+							<p>xx대 컴공에 재학중인 친구와 xx회사에서 백을 하던 친구와 함께 도전한 앱 개발</p>
+							<details>
+								<summary>오프라인 쇼핑몰의 디지털화</summary>
+							</details>
+							<p>집중을 위한 공유 오피스 6달 계약</p>
+							<p>어도비 XD,UI,UX 포토샵을 위한 디자인을 잘하는 친구 추가</p>
+							<p>하이브리드 플랫폼 Fltter 로 front 개발, db 및 파이썬 서버와 docker, elastic search, git 등 다양한 공부</p>
+							<p>현직자와 사업계획서 검토 및 시장 분석과 유동인구 데이터화</p>
+							<p>자금 확보를 위한 K-startup 창업지원에 도전</p>
+							<p>아쉬운 실력과 미흡한 준비로 떨어졌지만 다양하고 많은 경험을 얻음</p>
+
+							<div class="develop_container">
+								<div class="develop_container_box">
+									<img src="img/seeOtt/seeOtt_coding.png" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/seeOtt/seeOtt_hatecoding.jpg" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/seeOtt/seeOtt_kakaoMapApi.PNG" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/seeOtt/seeOtt_plan.PNG" alt="">
+								</div>
+							</div>
+
+							<div class="devleop_wrapper">
+								<img class="devleop_wrapper_img" src="img/seeOtt/seeOtt_data.PNG" alt="">
+								<p>데이터 분석을 통해 홍대에 인구수 유동 분포수를 알 수 있었다.</p>
+								<p>시간 별로 분석하거나 공공 open되어있는</p>
+								<p>데이터를 활용하여 파이썬으로 친구가 분석한 자료</p>
+							</div>
+
+						</div>
+					</details>
+					<details class="details-item" name="test">
+						<summary class="details-tab">군장병 해커톤</summary>
+						<div class="details-content">
+							<p>국방오픈소스 https://osam.oss.kr/ 에서 주최한 해커톤</p>
+							<p>2022년도를 마지막으로 서비스를 중단했다.</p>
+							<p>군 생활중에 코딩테스트를 통해서 인원을 선발해서 해커톤을 실시했다.</p>
+							<p>솔직히 거의 다 틀렸는데 인원이 모자른지 붙여주었고 AClice와 연계해서 해커톤을 하였다</p>
+							<p>흔히 말하는 명문대 친구들과 함께 했는데 실력이 한참 모자름을 느끼게 해준 해커톤이었다.</p>
+							<p>사지방에서 코딩을 해야 했어서 진짜 옛날 컴퓨터로 했었는데 git에 시범서비스인 codespace를 활용한</p>
+							<p>코딩을 하였고 디버깅이나 에뮬레이터 하나없이 flutter로 front를 개발했는데</p>
+							<p>진짜 너무힘들었고 컴퓨터도 느리고 일과시간은 얼마없고 최악이었다.</p>
+							<p>군 생활을 하면서 진행하는거여서 훈련받으면서 하는 최악에 코딩이었다.</p>
+							<div class="develop_container">
+								<div class="develop_container_box_full">
+									<img src="img/hackathon/hackathon_stack.PNG" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/hackathon/hackathon_startPage.PNG" alt="">
+								</div>
+							</div>
+
+							<div class="develop_container">
+
+								<div class="devleop_wrapper">
+									<img class="devleop_wrapper_img" src="img/hackathon/hackathon_qr.gif" alt="">
+									<p>첫번째 이미지는 로그인 페이지</p>
+									<p>그후에 어떤 관리자 권한으로 접속할건지 결정</p>
+									<p>공지사항과 일정등을 홈에서 확인가능하며</p>
+									<p>스캐너를 통한 빠른 물품 검색이 가능하다.</p>
+									<p>창고에 선반마다 혹은 물품에 박스마다 붙어있는 qr코드를 빠르게</p>
+									<p>스캔하여 물품의 갯수와 위치 및 다른 곳에 어디있는지 확인한다.</p>
+									<p>i3컴퓨터에 렘4기가 10년도 넘은 컴퓨터로 한계가 너무 힘들었다.</p>
+									<p>지금 생각해도 팀원들에게 너무 미안했고 한계도 많이 느꼈었다.</p>
+									<p>나를 제외한 모든 팀원은 sky 혹은 그 이상(과학기술원급)에 학사, </p>
+									<p>대학원 출신이었는데진짜 너무미안했고 배우는것도 많은 해커톤이었다..</p>
+									<p>진짜 서버를 docs로 깔끔하게 정리하던 멋있는 사람들이었다.</p>
+									<br><br>
+									<p>git: https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor</p>
+									<p>https://github.com/features/codespaces(원격 코딩)</p>
+								</div>
+
+							</div>
+
+
+						</div>
+					</details>
+					<details class="details-item" name="test">
+						<summary class="details-tab">파이썬 게임</summary>
+						<div class="details-content">
+							<p>고급 파이썬을 하게되면서 만들게 된 게임</p>
+							<p>pygame을 기반으로 만들었으며 과제였지만 시간을 꽤 투자했었다.</p>
+
+							<div class="develop_container">
+								<div class="develop_container_box">
+									<img src="img/pygame/pygame_startPage.PNG" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/pygame/pygame_miniGamePage.PNG" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/pygame/pygame_mainPage.PNG" alt="">
+								</div>
+								<div class="develop_container_box">
+									<img src="img/pygame/pygame_code.PNG" alt="">
+								</div>
+							</div>
+							<p>플레이어가 곰두리라고 생각하고 만든게임이다.</p>
+							<p>사실 게임을 했을때의 페이지는 과제라서 곰두리2차 창작물을 그냥쓰여서</p>
+							<p>불편해할거 같아서 메인 게임페이지는 첨부하지 못했다.</p>
+							<p>2번째 이미지는 미니게임이며 맞춘갯수만큼 골드를 얻고 상점이용이 가능하다.</p>
+							<p>특성, 기록, 업적등 다양한 기능이 구현되어 있으며 무려 <del><strong>소리도난다</strong></del></p>
+							<p>scv파일을 이용하여 로그인과 개인적인 데이터를 구현하려했으나</p>
+							<p>6전공과제 폭탄에 html과제도 있어서 어느정도선에서 마무리 지었다.</p>
+						</div>
+					</details>
+
+
+					<details class="details-item" name="test">
+						<summary class="details-tab">앞으로의 나는?</summary>
+						<div class="details-content">
+							<p>항상 내 주변에는 나보다 잘하는 사람 뿐이었다.</p>
+							<p>같이 협력하거나 도와주기 보다는 배워야만하는 혹은 따라가야하는 사람이었다.</p>
+							<p>전문대에 다니다가 강원대로 오기까지 수 많은 박탈감과 자극제가 있었다.</p>
+							<p>그러한 결과로 강원대까지 오게되었고 열심히 해야겠다고 매일 생각한다.</p>
+							<p>그럼에도 매일 술마시고 잠 안자고 지각하고 수업시간에 멍때리고 있다.</p>
+							<p>앞으로의 나는 어떤사람이 될까?</p>
+							<p>나도 모르고 항상 노는게 재밌지만 또 다른 자극제를 찾아 그 기준에</p>
+							<p>맞춰서 성장하는 그런 사람이자 개발자가 되고싶다.</p>
+						
+
+
+						</div>
+					</details>
+				</div>
+				
+			</div>
+		</div>
+
+
+	</section>
+
+	<section id = "footerView">
+		<footer>
+			<div class="footer-content">
+				<h3>developer codingle2</h3>
+				<p>템플릿 사용X</p>
+	
+			</div>
+			<div class="footer-bottom">
+				<p>생각보다 이미지 찾기가 힘들었던건 비밀입니다.</p>
+			</div>
+		</footer>
+	</section>
+
+
+	</div>
+</body>
+
+</html>
